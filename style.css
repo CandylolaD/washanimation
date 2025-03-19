@@ -189,4 +189,28 @@ section.one svg {
         transform: rotate(720deg);
         opacity: 0;
     }
+
 }
+
+
+/* Individuelle Startpositionen */
+.pulli {
+    --start-x: 100px;
+    animation-delay: 0s;
+}
+
+.pulligrün {
+    --start-x: 150px;
+    animation-delay: 0.5s;
+}
+
+.jacke {
+    --start-x: 200px;
+    animation-delay: 1s;
+}
+
+.schuhe {
+    --start-x: 250px;
+    animation-delay: 1.5s;
+}
+
